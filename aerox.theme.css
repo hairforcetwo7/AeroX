@@ -1,11 +1,9 @@
 /**
  * @name AeroX
  * @author hairforcetwo7/crownlabs
- * @version 1.01
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite dHaSxn3
+ * @version 1.02 (R0730)
+ * @description Transparent, glass-like theme for discord. (Special Thanks to ClearVision)
+ * @source https://github.com/hairforcetwo7/AeroX
  * @BDEditor Clear Vision
 */
 
@@ -15,21 +13,21 @@
   --main-color: #2780e6;
   --hover-color: #1e63b3;
   --success-color: #43b581;
-  --danger-color: #982929;
+  --danger-color: #c92121;
   --url-color: #4CAF50;
   --background-image: transparent;
-  --background-shading: 100%;
+  --background-shading: 125%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 100%;
   --background-contrast: 100%;
-  --background-saturation: 100%;
+  --background-saturation: 200%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 0px;
-  --background-overlay: rgb(0,0,0,0.8);
+  --background-blur: 15px;
+  --background-overlay: rgba(0, 0, 0, 0.520);
   --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -67,7 +65,7 @@
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-overlay: rgb(0, 0, 0);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
   --backdrop-size: var(--background-size);
